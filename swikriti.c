@@ -1,32 +1,19 @@
 /*
 student name:swikriti ray
-roll no:43
+roll:43
 subject:programming fundamental
-program:wap check THE LARGE NUMBEER
+lab sheet no:12
+program:wap to print largest no among three no using ternary operator
 */
 #include<stdio.h>
-#include<conio.h>
-int main(){
-int a,b,c;
-printf("enter a first number:\n");
+int main() {
+int a,b,c ;
+printf("enter the first number:\n");
 scanf("%d",&a);
-printf("enter a second number:\n");
+printf("enter the second number:\n");
 scanf("%d",&b);
-printf("enter a third number:\n");
+printf("enter the third number:\n");
 scanf("%d",&c);
-if(a>=b && a>=c)
-{
-    printf("largest is:%d",a);
-}
-   else if (b>=a && b>=c)
-   {
-       printf("largest is:%d",b);
-
-   }
-   else
-   {
-       printf("largest is:%d",c);
-   }
-   getch();
-   return(0);
+(a>=b&&a>=c)?printf("%d is largest",a):printf("%d is largest",c);
+return 0;
 }

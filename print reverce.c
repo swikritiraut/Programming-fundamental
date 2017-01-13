@@ -8,15 +8,17 @@ date:13 jan
 #include<conio.h>
 int main()
 {
-    int i,rem;
+    int i,rem=0,rev=0;
     printf("enter the number");
     scanf("%d",&i);
     while(i>0)
     {
         rem=i%10;
+        rev=rev*10+rem;
         i=i/10;
-        printf("%d",rem);
     }
+        printf("the value of reverse is %d",rev);
+
     return 0;
     getch();
 }

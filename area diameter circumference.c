@@ -1,6 +1,5 @@
 
 #include<stdio.h>
-#define pi 3.14
 void diameter(float r);
 void area(float r);
 void circumfrence(float r);
